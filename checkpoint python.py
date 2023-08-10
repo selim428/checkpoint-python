@@ -39,14 +39,23 @@ print(dict1)
 # In[3]:
 
 
-m=int(input("entrer un entier "))
-l=input("entrer une chaine ")
+while True :
+    l=input("entrer une chaine ")
+    if l.strip():
+        break 
+    else :
+        print("please enter a  non-empty string")
+while True :
+    m=int(input("entrer un entier "))
+    if m in range((len(l))) :
+        break
 l1=""
 for i in range(len(l)) :
     if i!=m :
         l1=l1+l[i]
         
 print(l1)
+
 
 
 # In[6]:
