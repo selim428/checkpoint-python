@@ -5,7 +5,7 @@
 
 
 L=[]
-for i in range(2000,3200) :
+for i in range(2000,3201) :
     if i%7==0 and i%5!=0 :
         L.append(i)
 L
@@ -17,7 +17,7 @@ L
 
 v=int(input("entrer un entier "))
 fac=1
-for i in range(1,n+1) :
+for i in range(1,v+1) :
     fac=fac*i
 print(fac)
 
