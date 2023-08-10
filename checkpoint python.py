@@ -50,6 +50,7 @@ while True :
     if m in range((len(l))) :
         break
 l1=""
+l=l.strip()
 for i in range(len(l)) :
     if i!=m :
         l1=l1+l[i]
